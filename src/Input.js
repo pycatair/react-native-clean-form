@@ -75,6 +75,7 @@ class Input extends React.Component {
         <StyledInput
           inlineLabel={this.props.inlineLabel}
           placeholderTextColor={this.props.theme.BaseInput.placeholderColor}
+          underlineColorAndroid="transparent"
           {...this.props}/>
       </InputWrapper>
     )

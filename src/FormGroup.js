@@ -40,6 +40,7 @@ const FormGroupWrapper = styled.View`
   paddingRight : ${props => props.theme.FormGroup.paddingRight };
   paddingBottom : ${props => props.theme.FormGroup.paddingBottom };
   paddingLeft : ${props => props.theme.FormGroup.paddingLeft };
+  backgroundColor: ${props => props.theme.FormGroup.backgroundColor };
 `
 
 FormGroupWrapper.defaultProps = {
